@@ -1,10 +1,10 @@
 package ru.netology.service;
 
-import org.junit.Test;
 import org.junit.Assert;
+import org.junit.Test;
 
 
-class CashbackHackServiceTest {
+public class CashbackHackServiceTest {
 
     @Test
     public void boundaryLess1000() {
@@ -24,7 +24,7 @@ class CashbackHackServiceTest {
         int amount = 1000;
 
         int actual = service.remain(amount);
-        int expected = 1000;
+        int expected = 0;
 
         Assert.assertEquals(actual, expected);
 
