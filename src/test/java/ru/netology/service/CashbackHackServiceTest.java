@@ -1,10 +1,9 @@
 package ru.netology.service;
 
-import org.testng.annotations.Test;
 import org.testng.Assert;
-import ru.netology.service.CashbackHackService;
+import org.testng.annotations.Test;
 
-class CashbackHackServiceTest {
+public class CashbackHackServiceTest {
 
     @Test
     void shouldBoundaryLess1000() {
